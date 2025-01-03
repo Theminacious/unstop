@@ -14,9 +14,9 @@ const HeroSection = () => {
         <p className='mt-4 font-normal text-base md:text-lg text-neutral-300 max-1-lg mx-auto'>Fostering a culture of competitiveness, learning, and growth, we aim to inspire individuals to challenge themselves, collaborate, and continuously improve, building a strong foundation for success and excellence.</p>
         <div className='mt-4'>
         <Link href={"/"}>
-            <button
-        className="bg-white dark:bg-black border-radius-2xl  text-black dark:text-white border-neutral-200 dark:border-slate-800"
-            >Get To Know Us</button>
+        <button className="w-40 h-12 rounded-full bg-white text-black text-sm">
+          Get to know us
+        </button>
             </Link>
         </div>
         

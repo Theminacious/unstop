@@ -49,9 +49,9 @@ const AboutTheClub = () => {
             </div>
             <div className='mt-20 text-center'>
                 <Link href={'/about'}>
-                    <button
-                        className="bg-white  border-radius: 1.75rem dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                    >Get To Know Us</button>
+                <button className="w-40 h-12 rounded-full bg-white text-black text-sm">
+          Join Us
+        </button>
                 </Link>
             </div>
         </div>
