@@ -2,7 +2,6 @@
 import Link from 'next/link'
 import aboutClubData from '../data/cardData.json'
 import Image from 'next/image'
-import { Button } from './ui/moving-border'
 import { BackgroundGradient } from './ui/background-gradient'
 
 const AboutTheClub = () => {
@@ -50,10 +49,9 @@ const AboutTheClub = () => {
             </div>
             <div className='mt-20 text-center'>
                 <Link href={'/about'}>
-                    <Button
-                        borderRadius="1.75rem"
-                        className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-                    >Get To Know Us</Button>
+                    <button
+                        className="bg-white  border-radius: 1.75rem dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
+                    >Get To Know Us</button>
                 </Link>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 import { Spotlight } from './ui/Spotlight'
-import { Button } from './ui/moving-border'
+
 
 const HeroSection = () => {
   return (
@@ -14,10 +14,9 @@ const HeroSection = () => {
         <p className='mt-4 font-normal text-base md:text-lg text-neutral-300 max-1-lg mx-auto'>Fostering a culture of competitiveness, learning, and growth, we aim to inspire individuals to challenge themselves, collaborate, and continuously improve, building a strong foundation for success and excellence.</p>
         <div className='mt-4'>
         <Link href={"/"}>
-            <Button
-             borderRadius="1.75rem"
-        className="bg-white dark:bg-black text-black dark:text-white border-neutral-200 dark:border-slate-800"
-            >Get Started</Button>
+            <button
+        className="bg-white dark:bg-black border-radius-2xl  text-black dark:text-white border-neutral-200 dark:border-slate-800"
+            >Get To Know Us</button>
             </Link>
         </div>
         
