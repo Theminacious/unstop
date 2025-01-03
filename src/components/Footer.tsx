@@ -30,7 +30,7 @@ export function FooterTypewriterEffect() {
   ];
   
   return (
-    <div className="flex flex-col items-center justify-center bg-gray-900 py-12">
+    <div className="flex flex-col items-center justify-center bg-black py-12">
       <p className="text-white dark:text-neutral-200 text-base mb-6 font-semibold tracking-tight leading-relaxed text-center">
   The journey to success begins here at Unstop
 </p>
