@@ -15,35 +15,35 @@ export default function Navbar() {
       icon: (
         <IconHome className="h-full w-full text-black dark:text-gray-300" />
       ),
-      href: "#",
+      href: "#hero",
     },
     {
       title: "About Us",
       icon: (
         <IconInfoCircle className="h-full w-full text-black dark:text-gray-300" />
       ),
-      href: "/about",
+      href: "#about",
     },
     {
       title: "Events",
       icon: (
         <IconCalendarEvent className="h-full w-full text-black dark:text-gray-300" />
       ),
-      href: "/events",
+      href: "#events",
     },
     {
       title: "Our Team",
       icon: (
         <IconUsers className="h-full w-full text-black dark:text-gray-300" />
       ),
-      href: "/team",
+      href: "#team",
     },
     {
       title: "Contact Us",
       icon: (
         <IconMail className="h-full w-full text-black dark:text-gray-300" />
       ),
-      href: "/contact",
+      href: "#footer",
     },
   ];
 
